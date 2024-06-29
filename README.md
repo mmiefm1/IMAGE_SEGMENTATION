@@ -65,7 +65,32 @@ These practical advantages highlight the power and versatility of Mask R-CNN and
 ## U-Net for Semantic Segmentation
 
 ### Dataset
-- We will be training the model on the [Oxford Pets - IIT dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) dataset. 
+- We will be training the model on the [Oxford Pets - IIT dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) dataset.
+- We will only use the images and segmentation mask from this dataset.
+### Model Architecture
+<img src='https://drive.google.com/uc?export=view&id=1BeQSKL2Eq6Fw9iRXsN1hgunY-CS2nH7V' alt='unet'>
+
+The U-Net consists of an encoder and a decoder with a bottleneck in between. The gray arrows correspond to the skip connections that concatenate encoder block outputs to each stage of the decoder.
+
+`Encoder Block`
+
+<img src='https://drive.google.com/uc?export=view&id=1Gs9K3_8ZBn2_ntOtJL_-_ww4ZOgfyhrS' alt='unet'>
+
+`Decoder Block`
+
+<img src='https://drive.google.com/uc?export=view&id=1Ql5vdw6l88vxaHgk7VjcMc4vfyoWYx2w' alt='unet_decoder'>
+
+### Compile and Training the moodel
+- **Loss**: We will use here `sparse_categorical_crossentropy` because the network is trying to assign each pixel a label and each pixel has either {0,1,2} and we know that for such scenario  `sparse_categorical_crossentropy` is used.
+- **Optimizer**: We will use Adam optimizer here, that is, `tf.keras.optimizers.Adam()`.
+  
+
+
+
+
+
+
+
 
 
 
