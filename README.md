@@ -3,6 +3,15 @@ Image segmentation is a fundamental task in computer vision that involves partit
 ## Description
 This project demonstrates image segmentation using Mask R-CNN and U-Net. The models are applied to segment objects in various images, highlighting their applications in fields such as medical imaging and autonomous driving.
 ## Table of Contents
+
+- [Types of Image Segmentation](#Types-of-Image-Segmentation)
+  - [Semantic Segmentation](#Semantic-Segmentation)
+  - [Instance Segmentation](#Instance-Segmentation)
+- [Practical Advantages](#Practical-Advantages)
+  - [Mask R-CNN](#Mask-RCNN)
+  - [U-Net](#U-Net)
+  - [Comnined Advantages](#Combined-Advantages)
+
 ## Types of Image Segmentation
 ### Semantic Segmentation 
 - **Definition**: Assigns a label to each pixel in the image, classifying each pixel into a predefined category. All pixels belonging to the same class are given the same label.
@@ -131,9 +140,11 @@ we can run the inference on our test image and thus further we can visulaise tha
 ![MASK-RCNN Result Image](Result_mask_rcnn.png)
 
 
-## Reference
+## References
 - [Mask-RCNN](https://arxiv.org/abs/1703.06870)
-- [U-Net](https://arxiv.org/abs/1505.04597)
+- [U-Net](https://arxiv.org/abs/1505.04597)\
+
+  
   
 
 
