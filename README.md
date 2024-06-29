@@ -83,6 +83,11 @@ The U-Net consists of an encoder and a decoder with a bottleneck in between. The
 ### Compile and Training the moodel
 - **Loss**: We will use here `sparse_categorical_crossentropy` because the network is trying to assign each pixel a label and each pixel has either {0,1,2} and we know that for such scenario  `sparse_categorical_crossentropy` is used.
 - **Optimizer**: We will use Adam optimizer here, that is, `tf.keras.optimizers.Adam()`.
+
+### Result 
+- **Accuracy**: 0.8887
+- **Validation Accuracy**: 0.8809
+  
   
 
 
