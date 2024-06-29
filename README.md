@@ -22,5 +22,5 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
   - **Medical Imaging**: Separating overlapping cells in microscopy images.
 - **Example**: Segmenting each person in a crowd as a separate entity, not just as part of the 'person' class.
 
-![Instance Segmentation Example]
+![Instance Segmentation Example](comparison_instance_segmentation.ppm)
   
