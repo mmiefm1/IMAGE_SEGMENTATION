@@ -128,6 +128,15 @@ we can run the inference on our test image and thus further we can visulaise tha
 
 ### Result Image
 
+![MASK-RCNN Result Image](Result_mask_rcnn.png)
+
+
+## Reference
+- [Mask-RCNN](https://arxiv.org/abs/1703.06870)
+- [U-Net](https://arxiv.org/abs/1505.04597)
+  
+
+
 
   
 
