@@ -102,9 +102,38 @@ The U-Net consists of an encoder and a decoder with a bottleneck in between. The
 | BACKGROUND| 0.931068 | 0.871027 |
 | OUTLINE   | 0.604814 | 0.433501 |
 
--**Result**:
+- **Result**:
 
-![Result](
+![Result](Result.png)
+
+
+## Mask R-CNN for Instance Segmentation
+Here, we will be using [Object Detection APi](https://github.com/tensorflow/models/tree/master/research/object_detection) so we have to install the neccesary packages and we can do that by cloning the [Tensorflow Model Garden](https://github.com/tensorflow/models) and installing the object detection packages.
+### Installation of Packages
+ ```bash
+!git clone --depth 1 https://github.com/tensorflow/models
+```
+```bash
+## Compile the Object Detection API protocol buffers and install the necessary packages
+!cd models/research/ && protoc object_detection/protos/*.proto --python_out=. && cp object_detection/packages/tf2/setup.py . && python -m pip install .
+```
+### Load the model
+On kaggle pretrained model of Mask R-CNN is available and we can load the model from there.
+
+Model_handle = "https://www.kaggle.com/models/tensorflow/mask-rcnn-inception-resnet-v2/tensorFlow2/1024x1024/1?tfhub-redirect=true"
+
+Since the model is pretrained on [COCO2017 dataset](https://cocodataset.org/) so there is no need for training the model. 
+
+we can run the inference on our test image and thus further we can visulaise that.
+
+- **Result Image**
+  
+
+
+
+
+
+
 
   
 
