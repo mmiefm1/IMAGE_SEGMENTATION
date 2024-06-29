@@ -23,4 +23,8 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
 - **Example**: Segmenting each person in a crowd as a separate entity, not just as part of the 'person' class.
 
 ![Instance Segmentation Example](comparison_instance_segmentation.ppm)
+
+![Instance Segmentation VS Semantic Segmentation](instancevssemantic.ppm)
+
+
   
