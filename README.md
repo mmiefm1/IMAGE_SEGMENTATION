@@ -11,5 +11,16 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
   - **Medical Imaging**: Segmenting different anatomical structures like organs, tissues, and tumors.
   - **Satellite Imagery**: Classifying land cover types like forests, water bodies, and urban areas.
 - **Example**: Segmenting an image of a street scene into classes such as road, cars, pedestrians, and buildings.
-![Semantic Segmantation Example] (
+  
+![Semantic Segmantation Example](Semantic_Segmentation.png)
+
+### Instance Segmentation
+- **Definition**: Extends semantic segmentation by distinguishing between different instances of the same class. Each object instance is segmented separately.
+- **Applications**:
+  - **Object Detection**: Identifying and segmenting each object in an image individually, useful in inventory management and robotics.
+  - **Video Surveillance**: Tracking individual objects or people in real-time for security purposes.
+  - **Medical Imaging**: Separating overlapping cells in microscopy images.
+- **Example**: Segmenting each person in a crowd as a separate entity, not just as part of the 'person' class.
+
+![Instance Segmentation Example]
   
