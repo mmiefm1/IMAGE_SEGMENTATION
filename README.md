@@ -8,10 +8,19 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
   - [Semantic Segmentation](#Semantic-Segmentation)
   - [Instance Segmentation](#Instance-Segmentation)
 - [Practical Advantages](#Practical-Advantages)
-  - [Mask R-CNN](#Mask-RCNN)
+  - [Mask R-CNN](#Mask-RC-NN)
   - [U-Net](#U-Net)
   - [Comnined Advantages](#Combined-Advantages)
-
+- [U-Net for Semantic Segmentation](#U-Net-for-Semantic-Segmentation)
+  - [Dataset](#Dataset)
+  - [Model Architecture](#Model-Architecture)
+  - [Compile and Training the Model](#Compile-and-Training-the-model)
+  - [Result](#Result)
+- [Mask R-CNN for Instance Segmentation](#Mask-R-CNN-for-Instance-Segmentation)
+  - [Installation of Packages](#Installation-of-Packages)
+  - [Load the model](#Load-the-model)
+  - [Result Image](#Result-Image)
+- [References](#References)
 ## Types of Image Segmentation
 ### Semantic Segmentation 
 - **Definition**: Assigns a label to each pixel in the image, classifying each pixel into a predefined category. All pixels belonging to the same class are given the same label.
@@ -89,7 +98,7 @@ The U-Net consists of an encoder and a decoder with a bottleneck in between. The
 
 <img src='https://drive.google.com/uc?export=view&id=1Ql5vdw6l88vxaHgk7VjcMc4vfyoWYx2w' alt='unet_decoder'>
 
-### Compile and Training the moodel
+### Compile and Training the model
 - **Loss**: We will use here `sparse_categorical_crossentropy` because the network is trying to assign each pixel a label and each pixel has either {0,1,2} and we know that for such scenario  `sparse_categorical_crossentropy` is used.
 - **Optimizer**: We will use Adam optimizer here, that is, `tf.keras.optimizers.Adam()`.
 
