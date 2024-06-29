@@ -88,9 +88,24 @@ The U-Net consists of an encoder and a decoder with a bottleneck in between. The
 - **Accuracy**: 0.8887
 - **Validation Accuracy**: 0.8809
 - **Training vs Validation Loss Plot**:
-![Plot](
-  
-  
+
+
+
+  ![Plot](training_plot.png)
+
+
+- **IOU and Dice Score**:
+
+|Class Name | DICE     | IOU     |
+|---------- |----------|----------|
+| PET       | 0.872613 | 0.774014 |
+| BACKGROUND| 0.931068 | 0.871027 |
+| OUTLINE   | 0.604814 | 0.433501 |
+
+-**Result**:
+
+![Result](
+
   
 
 
