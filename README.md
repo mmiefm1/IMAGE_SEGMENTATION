@@ -87,6 +87,9 @@ The U-Net consists of an encoder and a decoder with a bottleneck in between. The
 ### Result 
 - **Accuracy**: 0.8887
 - **Validation Accuracy**: 0.8809
+- **Training vs Validation Loss Plot**:
+![Plot](
+  
   
   
 
