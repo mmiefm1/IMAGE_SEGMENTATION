@@ -62,6 +62,12 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
 
 These practical advantages highlight the power and versatility of Mask R-CNN and U-Net in various real-world applications, making them valuable tools in the field of image segmentation.
 
+## U-Net for Semantic Segmentation
+
+### Dataset
+- We will be training the model on the [Oxford Pets - IIT dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) dataset. 
+
+
 
 
 
