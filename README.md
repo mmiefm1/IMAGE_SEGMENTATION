@@ -126,7 +126,9 @@ Since the model is pretrained on [COCO2017 dataset](https://cocodataset.org/) so
 
 we can run the inference on our test image and thus further we can visulaise that.
 
-- **Result Image**
+### Result Image
+
+
   
 
 
