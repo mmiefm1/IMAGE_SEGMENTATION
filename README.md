@@ -10,7 +10,7 @@ This project demonstrates image segmentation using Mask R-CNN and U-Net. The mod
 - [Practical Advantages](#Practical-Advantages)
   - [Mask R-CNN](#Mask-RC-NN)
   - [U-Net](#U-Net)
-  - [Comnined Advantages](#Combined-Advantages)
+  - [Combined Advantages](#Combined-Advantages)
 - [U-Net for Semantic Segmentation](#U-Net-for-Semantic-Segmentation)
   - [Dataset](#Dataset)
   - [Model Architecture](#Model-Architecture)
