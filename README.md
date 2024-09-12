@@ -1,5 +1,5 @@
 # Image Segmentation using Mask R-CNN and U-Net
-Image segmentation is a fundamental task in computer vision that involves partitioning an image into multiple segments or regions, each of which corresponds to different objects or parts ofobjects. The primary goal of image segmentation is to simplify the representation of an image and make it more meaningful and easier to analyze.
+Image segmentation is a fundamental task in computer vision that involves partitioning an image into multiple segments or regions, each of which corresponds to different objects or parts of objects. The primary goal of image segmentation is to simplify the representation of an image and make it more meaningful and easier to analyze.
 ## Description
 This project demonstrates image segmentation using Mask R-CNN and U-Net. The models are applied to segment objects in various images, highlighting their applications in fields such as medical imaging and autonomous driving.
 ## Table of Contents
